@@ -1,0 +1,327 @@
+ul li {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+.anchor {
+  text-decoration: none !important;
+  padding: 5px 10px;
+  font-size: 18px;
+  background-color: #66afd1;
+  border-radius: 4px;
+  border: 1px solid grey;
+  color: #000;
+}
+
+.anchor:hover {
+  text-decoration: none !important;
+  padding: 5px 10px;
+  font-size: 18px;
+  background-color: #03a9f4;
+  border-radius: 4px;
+  border: 1px solid grey;
+  color: #fff;
+}
+
+.anchor1:hover {
+  text-decoration: none !important;
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: green;
+  border-radius: 4px;
+  border: 1px solid green;
+  color: #fff;
+}
+
+.anchor1 {
+  text-decoration: none !important;
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid green;
+  color: green;
+}
+
+.anchor2:hover {
+  text-decoration: none !important;
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: red;
+  border-radius: 4px;
+  border: 1px solid red;
+  color: #fff;
+}
+
+.anchor2 {
+  text-decoration: none !important;
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid red;
+  color: red;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+}
+
+.right {
+  width: 100%;
+  float: left;
+}
+
+.emplist,
+.emplist th,
+.emplist td {
+  width: 100%;
+  border: 1px solid #fff;
+  border-collapse: collapse;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+.emplist tr {
+  background-color: #181f2c;
+  color: #fff;
+}
+
+.emplist th {
+  background-color: #1c1a4f;
+  color: #fff;
+}
+select {
+  width: 600px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.tit {
+  width: 600px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.tit:focus {
+  outline: none;
+}
+textarea {
+  width: 600px;
+  height: 300px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+textarea:focus {
+  outline: none;
+}
+input[type="file"] {
+  width: 600px;
+  height: 33px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.sbtn {
+  padding: 10px 40px;
+  font-size: 18px;
+  background-color: #000;
+  border-radius: 4px;
+  border: 1px solid #000;
+  color: #fff;
+  float: left;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.sbtn:hover {
+  padding: 10px 40px;
+  font-size: 18px;
+  background-color: rgb(25, 25, 95);
+  border-radius: 4px;
+  border: 1px solid rgb(25, 25, 95);
+  color: #fff;
+}
+.td-left {
+  width: 25%;
+  padding-bottom: 20px;
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+}
+.td-right {
+  width: 75%;
+  float: right;
+  padding-bottom: 20px;
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+}
+.up-title {
+  width: 25%;
+  padding-bottom: 20px;
+  color: #000;
+  font-size: 20px;
+  font-weight: 800;
+}
+.dash-content {
+  background-color: #fff !important;
+}
+.dash-toolbar {
+  background-color: #181f2c !important;
+}
+
+@media screen and (max-width: 500px) {
+  .dash-content {
+    padding: 0;
+    width: 100%;
+  }
+  select {
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+      rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  }
+  .tit {
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+      rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  }
+  .tit:focus {
+    outline: none;
+  }
+  textarea {
+    width: 250px;
+    height: 100px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+      rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  }
+  textarea:focus {
+    outline: none;
+  }
+  input[type="file"] {
+    width: 250px;
+    height: 33px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+      rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  }
+  .sbtn {
+    padding: 5px 20px;
+    font-size: 14px;
+    background-color: #000;
+    border-radius: 4px;
+    border: 1px solid #000;
+    color: #fff;
+    float: left;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+      rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  }
+
+  .sbtn:hover {
+    padding: 5px 20px;
+    font-size: 14px;
+    background-color: rgb(25, 25, 95);
+    border-radius: 4px;
+    border: 1px solid rgb(25, 25, 95);
+    color: #fff;
+  }
+  .td-left {
+    width: 15%;
+    padding-bottom: 10px;
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .td-right {
+    width: 85%;
+    float: right;
+    padding-bottom: 10px;
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+    left: -40px;
+  }
+  .up-title {
+    width: 100%;
+    padding-bottom: 10px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .up-rtitle {
+    width: 0%;
+  }
+}
+@media screen and (max-width: 829px) {
+  .dash-content {
+    width: 100%;
+  }
+  .tit {
+    width: 400px;
+  }
+  input[type="file"] {
+    width: 400px;
+  }
+  textarea {
+    width: 400px;
+  }
+  select {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .dash-content {
+    width: 100%;
+  }
+  .tit {
+    width: 450px;
+  }
+  input[type="file"] {
+    width: 450px;
+  }
+  textarea {
+    width: 450px;
+  }
+  select {
+    width: 450px;
+  }
+}
+
+.database-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(20, 20, 92);
+  padding-bottom: 20px;
+}
+
+.container .welcome_user {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.welcome_title {
+  text-align: center;
+  text-decoration: uppercase;
+  color:#1c1a4f;
+  font-size:25px;
+  font-weight:800;
+}
